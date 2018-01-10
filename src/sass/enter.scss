@@ -1,0 +1,63 @@
+@charset "utf-8";
+@import "_common.scss";
+
+//main
+#enter_main{
+    background:url(../img/enter/ce336d5fbfa6868e0f2d5324ec77c3bd.jpg) no-repeat left center;
+    .enter_main_con{
+        position:relative;
+        height:553px;
+        .box{
+            width:343px;
+            height:540px;
+            border:2px solid #ccc;
+            position:absolute;
+            right:0;
+            top:2%;
+            h2{
+                height:36px;
+                color:#1566c0;
+                font-size:24px;
+                text-align: center;
+                padding-top:12px;
+                border-bottom: 1px solid #ccc;
+            }
+            form{
+                .p1{
+                    height:42px;
+                    text-align:center;
+                    padding-top:8px;
+                    margin-bottom: 16px;
+                    input{
+                        width:298px;
+                        height:30px;
+                        border:1px solid #ccc;
+                    }
+                }
+                .p2{
+                    height:42px;
+                    text-align:center;
+                    padding-top:8px;
+                     margin-bottom:16px;
+                    input{
+                        width:298px;
+                        height:30px;
+                        border:1px solid #ccc;
+                    }
+                }
+                .p3{
+                    input{
+                        width:90px;
+                        height:30px;
+                        border:1px solid #ccc;
+                        margin-left:21px;
+                        margin-bottom:27px;
+                    }
+                }
+            }
+        }
+    }
+   
+}
+    
+

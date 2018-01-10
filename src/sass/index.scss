@@ -1,0 +1,141 @@
+@import "common.scss";  
+//main
+#main{
+    height:435px;
+    margin-bottom:10px;
+    .main_left{
+        width:180px;
+        float:left;
+        ul{
+            a{
+                display:block;
+                font-size:12px;
+                color:white;
+                height:40px;
+                line-height:40px;
+                padding-left:46px;
+            }
+            .a1{background:#2a9af0 url(../img/main/pop.gif) no-repeat 0 7px;}
+            .a2{background:#2a9af0 url(../img/main/pop.gif) no-repeat 0 -33px;}
+            .a3{background:#2a9af0 url(../img/main/pop.gif) no-repeat 0 -71px;}
+            .a4{background:#2a9af0 url(../img/main/pop.gif) no-repeat 0 -114px;}
+            .a5{background:#2a9af0 url(../img/main/pop.gif) no-repeat 0 -154px;}
+            .a6{background:#2a9af0 url(../img/main/pop.gif) no-repeat 0 -193px;}
+            .a7{background:#2a9af0 url(../img/main/pop.gif) no-repeat 0 -233px;}
+            .a8{background:#2a9af0 url(../img/main/pop.gif) no-repeat 0 -273px;}
+            .a9{background:#2a9af0 url(../img/main/pop.gif) no-repeat 0 -310px;}
+            .a10{background:#2a9af0 url(../img/main/pop.gif) no-repeat 0 -352px;} 
+        } 
+    }
+    .main_center{
+        width:750px;
+        float:left;
+        
+        .banner{
+            height:400px;
+            img{
+                height:400px;
+                width:750px;
+            }
+        }
+    }
+    .main_right{
+        float:left;
+        width:258px;
+        border:1px solid #ccc;
+        height:398px;
+        .d1{
+            background:url(../img/main/dh1.gif) no-repeat 51% 50%;
+            padding-top:6px;
+            height:30px;
+            border-bottom:1px solid #ccc;
+            span{
+               font-size:15px;
+               color:#333534; 
+               padding-left: 20px;
+            }
+            a{
+             margin-left: 57px;
+             font-size:16px;
+             color:red;
+             font-weight: 900;  
+            }
+        }
+        h3{
+            height:168px;
+            border-bottom:1px solid #ccc;
+           dl{
+               margin:13px 0;
+                width:64px;
+                float:left;
+                dt{
+                    margin-bottom:5px;
+                    img{
+                        margin:0 auto;
+                    }
+                }
+                dd{
+                    text-align:center;
+                    font-size: 12px;
+                    color:#615859;
+                }
+            } 
+        }
+        h4{
+            height:30px;
+            padding-top:6px;
+            border-bottom:1px solid #ccc;
+            span{
+                font-size:15px;
+                padding-left:9px;
+            }
+            a{
+                font-size:12px;
+                color:red;
+                margin-left:140px;
+            }
+        }
+        ul{
+            height:55px;
+            padding-left:10px;
+            li{
+                font-size:12px;
+                color:#605a5c;
+                background: url(../img/main/little_03.png) no-repeat left center;
+                line-height:22px;
+                padding-left:11px;
+            }
+        }
+    }
+}
+
+//flash sale
+#flashSale{
+    height:149px;
+    margin-bottom:39px;
+    dl,div{
+        float:left;
+    }
+    .d3{
+        margin-left:10px;
+    }
+}
+
+//ad
+#ad{
+    height:98px;
+    margin:29px 0 29px 0; 
+}
+
+//show
+#show{
+    height:404px;
+    h6{
+        background:#fabc05;
+    }
+    .Sale_right{
+        border-color:#fabc05;
+    }
+}
+
+

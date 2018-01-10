@@ -1,0 +1,319 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+}
+
+img{
+    display:block;
+}
+
+li{
+    list-style: none;    
+}
+
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 100;
+}
+
+.top_1_con,#top_2,#top_3,#main,#flashSale,#hotSale,#ad,#show,#brand,.nav_con,#bottom,.header,.enter_main_con{
+    width:1190px;
+    margin:0 auto;
+}
+
+//top
+#top_1{
+        background:#f8f8f8;
+        .top_1_con{
+        height:25px;
+        padding-top: 12px;
+        font-size:12px;
+        color:#5e645a;
+        .top_1_left{
+            float:left;
+            .denglu,.zhuce{
+                color:red;
+            }
+            .zhuce{
+                margin-left:5px;
+            }
+        }
+        .top_1_right{
+            float:right;
+            li{
+                float:left;
+                a{
+                    color:#5e645a;
+                    padding: 0 10px 0;
+                    border-right: 1px solid #ccc;
+                }
+                .a2{
+                    padding-right:30px;
+                    background:url(../img/top/qian.png) no-repeat 88% 7px;       
+                }
+                .a4{
+                    padding-left:25px;
+                    background:url(../img/top/dh.gif) no-repeat 3px center;
+                }
+                .a5{
+                    padding:0 20px 0;
+                    background: url(../img/top/phone.png) no-repeat 5px center;
+                }
+                .a6{
+                    border-right:0;
+                    padding:0 20px 0;
+                    background:url(../img/top/sc.png) no-repeat -2px center;
+                }
+            }
+        }
+    }
+}
+
+#top_2{
+    height:59px;
+    img{
+        margin:0 auto;
+    }
+}
+
+#top_3{
+    height:123px;
+    .top_3_left{
+        float:left;
+        padding-top:21px;
+    }
+    .top_3_center{
+        float:left;
+        margin-left:185px;
+        width:501px;
+        form{
+           height:90px;
+           padding-top:33px;
+           .fp{
+                padding-right:18px;
+                input{
+                  width:404px;
+                  height:30px;
+                  border:2px solid #0083CE;
+                }
+                a{
+                    width:75px;
+                    height:34px;
+                    display:block;
+                    float:right;
+                    background:#0083CE;
+                    line-height:34px;
+                    text-align:center;
+                    color:white;
+                }  
+           }
+           .ful{   
+               height:18px;
+               width:220px;
+               padding-top:5px;
+               li{
+                   float:left;
+                   a{   
+                       color:#5d5b4e;
+                       font-size:12px;
+                       padding: 0 10px 0;
+                       border-right:1px #ccc solid;
+                   }
+               }
+           } 
+        }
+    }
+    .top_3_right{
+        float:right;
+        padding-top:33px;
+    }
+}
+
+//header
+.header{
+        height:33px;
+        border-bottom:2px solid #1885da;
+            .s1{
+                width:160px;
+                height:23px;
+                padding-top:10px;
+                padding-left: 20px;
+                background:#1885d8;
+                display:block;
+                float:left;
+                color:white;
+                font-size: 13px;
+            }
+            ul{
+                width:1010px;
+                height:28px;
+                padding-top:5px;
+                float:right;
+                li{
+                    float:left;
+                    a{
+                        font-size: 13px;
+                        color:#424242;
+                        padding: 0 16px 0;
+                    }
+                }
+            }     
+        }
+
+//hotsale,show公共样式
+.Sale{
+    height:404px;
+    margin-bottom:29px;
+    .Sale_left,dl{
+        float:left;
+    }
+    .Sale_left{
+        width:180px;
+        h6{
+         height:58px;
+         background:#fc4e4d ; 
+         font-size:18px;
+         color:white;
+         padding:30px 0 0 56px;  
+        }
+        img{
+            height:316px;
+        }
+    }
+    .Sale_right{
+        float:left;
+        width:1010px;
+        height:402px;
+        border-top:2px solid #fc4e4d;
+    }
+    dl{
+        width:201px;
+        height:185px;
+        padding-top:16px;
+        border:1px solid #ccc;
+        border-left:0;
+        border-top:0;
+        dt{
+            margin-bottom:6px;
+            img{
+                margin:0 auto;
+                width:130px;
+                height:130px;
+            } 
+        }
+        dd{
+            text-align:center;
+            span{
+                font-size:13px;
+                color:#595556;
+            }
+            a{
+                font-size:13px;
+                color:red;
+            }
+        } 
+    }
+}
+    
+//brand
+#brand{
+  height:94px;
+  padding-top:60px;
+  dl{
+      float:left;
+      width:119px;
+      img{
+          margin:0 auto;
+      }
+      dd{
+          margin-top:12px;
+          text-align:center;
+          font-size:14px;
+          color:#57646d;
+      }
+  } 
+}
+
+//bottom-nav
+#nav{
+    height:220px;
+    background:#0083ce url(../img/nav/ft_bg.gif) right no-repeat;
+    .nav_con{
+        height:190px;
+        padding-left:77px;
+        padding-top:30px;
+        ul{
+            float:left;
+            margin-right:77px;
+            li{
+                font-size:12px;
+                margin-bottom:11px;
+                color:white;
+            }
+        }
+        dl{
+            float:right;
+            font-size:12px;
+            color:white;
+        }
+        .d1{
+                margin-right:196px;
+            }
+        .d2{
+            margin-right:50px;
+        }
+    }  
+}
+
+//bottom
+#bottom{
+    height:157px;
+    padding-top:13px;
+    position:relative;
+    a{
+        font-size:12px;
+        margin-right:19px;
+        color:#595556;
+    }
+    h4{
+        margin:0 auto;
+        font-size:12px;
+        color:#595556;
+        position:absolute;
+        left:14%;
+        top:62%;
+    }
+    .tiao{
+        position:absolute ;
+        bottom:0;
+        left:50%;
+    }
+    .confirm{
+        position:absolute ;
+        bottom:18%;
+        right:8%;
+    }
+}
+
+//position-fixed
+#p_fixed{
+    position:fixed;
+    right:2%;
+    top:65%;
+    overflow: hidden;
+    width:50px;
+    height:210px;
+    a{
+        display:block;
+        overflow:hidden;
+        position:relative;
+        margin-bottom:1px;
+        width:50px;
+        height:50px;       
+    }
+}

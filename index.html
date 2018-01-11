@@ -4,16 +4,24 @@
 		<meta charset="UTF-8">
 		<title>首页</title>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-		<script src="js/require.js" defer async="true" data-main = "js/main"></script>
 	</head>
 	<body>
 		<!--top-->
 		<div id = "top_1">
 			<div class = "top_1_con">
+				<ul class = "myliang" style="display: none">
+					<li>我的优惠券</li>
+					<li>我的收藏夹</li>
+					<li>商品评价</li>
+					<li>我的私人订制</li>
+				</ul>
+				<div class = "erwei" style="display: none">
+					<img src="img/top/2.jpg" alt="" />
+				</div>
 				<div class = "top_1_left">
 					<span>您好,欢迎来到量格!</span>
-					<a href="#" class = "denglu">[请登录]</a>
-					<a href="#" class = "zhuce">[免费注册]</a>
+					<a href="denglu.html" class = "denglu">[请登录]</a>
+					<a href="zhuce.html" class = "zhuce">[免费注册]</a>
 				</div>
 				<ul class = "top_1_right">
 					<li><a href="#">我的订单</a></li>
@@ -34,7 +42,7 @@
 			</div>
 			<div class = "top_3_center">
 				<form action="">
-						<p class = "fp"><input type="text" /><a href="#">搜索</a></p>
+						<p class = "fp"><input type="text" placeholder="Mate9"/><a href="#">搜索</a></p>
 						<ul class = "ful">
 							<li><a href="#">华为</a></li>
 							<li><a href="#">茶叶</a></li>
@@ -44,7 +52,9 @@
 				</form>
 			</div>
 			<div class = "top_3_right">
-				<img src="img/main/gwc.gif" alt="" />
+				<img src="img/main/gwc.gif" alt="" class = "gwcicon" />
+				<div class = "gwc">
+				</div>
 			</div>
 		</div>
 		<!--header-->
@@ -80,7 +90,16 @@
 			<div class = "main_center">
 				
 				<div class = "banner">
-					<img src="img/main/b08c0a183fc5926d966371a715fab9f6.jpg" alt="" />
+					<ul>
+						<li class = "i1" ><img src="img/main/banner1.jpg" alt="" /></li>
+						<li><img src="img/main/banner2.jpg" alt="" /></li>
+						<li><img src="img/main/banner3.jpg" alt="" /></li>
+					</ul>
+					<div class = "little">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
 				</div>
 			</div>
 			
@@ -470,3 +489,6 @@
 		</div>
 	</body>
 </html>
+<script type="text/javascript" src = "js/jquery-1.11.3.js"></script>
+<script src = "js/index.js"></script>
+

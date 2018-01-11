@@ -25,7 +25,31 @@ h1, h2, h3, h4, h5, h6 {
     height: 25px;
     padding-top: 12px;
     font-size: 12px;
-    color: #5e645a; }
+    color: #5e645a;
+    position: relative; }
+    #top_1 .top_1_con .myliang {
+      position: absolute;
+      top: 36px;
+      left: 780px;
+      width: 89px;
+      background: #ffffff;
+      z-index: 3; }
+      #top_1 .top_1_con .myliang li {
+        height: 25px;
+        padding-left: 10px; }
+    #top_1 .top_1_con .erwei {
+      width: 150px;
+      height: 150px;
+      background: #ffffff;
+      border: 1px solid #ccc;
+      position: absolute;
+      right: 0;
+      top: 36px;
+      z-index: 4;
+      padding: 16px 16px; }
+      #top_1 .top_1_con .erwei img {
+        width: 150px;
+        height: 150px; }
     #top_1 .top_1_con .top_1_left {
       float: left; }
       #top_1 .top_1_con .top_1_left .denglu, #top_1 .top_1_con .top_1_left .zhuce {
@@ -39,20 +63,35 @@ h1, h2, h3, h4, h5, h6 {
         #top_1 .top_1_con .top_1_right li a {
           color: #5e645a;
           padding: 0 10px 0;
-          border-right: 1px solid #ccc; }
+          position: relative; }
+        #top_1 .top_1_con .top_1_right li a:after {
+          content: "";
+          position: absolute;
+          right: 0;
+          top: 16%;
+          height: 12px;
+          width: 2px;
+          background-color: #dfdfdf; }
         #top_1 .top_1_con .top_1_right li .a2 {
-          padding-right: 30px;
-          background: url(../img/top/qian.png) no-repeat 88% 7px; }
+          padding: 26px 30px 8px 10px;
+          background: url(../img/top/qian.png) no-repeat 88% 33px; }
+        #top_1 .top_1_con .top_1_right li .a2:after {
+          top: 56%; }
         #top_1 .top_1_con .top_1_right li .a4 {
           padding-left: 25px;
           background: url(../img/top/dh.gif) no-repeat 3px center; }
         #top_1 .top_1_con .top_1_right li .a5 {
-          padding: 0 20px 0;
+          padding: 7px 20px 7px;
           background: url(../img/top/phone.png) no-repeat 5px center; }
+        #top_1 .top_1_con .top_1_right li .a5:after {
+          top: 31%;
+          z-index: 1; }
         #top_1 .top_1_con .top_1_right li .a6 {
           border-right: 0;
           padding: 0 20px 0;
           background: url(../img/top/sc.png) no-repeat -2px center; }
+        #top_1 .top_1_con .top_1_right li .a6:after {
+          height: 0; }
 
 #top_2 {
   height: 59px; }
@@ -71,10 +110,12 @@ h1, h2, h3, h4, h5, h6 {
     #top_3 .top_3_center form {
       height: 90px;
       padding-top: 33px; }
+      #top_3 .top_3_center form input {
+        padding: 0 10px; }
       #top_3 .top_3_center form .fp {
         padding-right: 18px; }
         #top_3 .top_3_center form .fp input {
-          width: 404px;
+          width: 384px;
           height: 30px;
           border: 2px solid #0083CE; }
         #top_3 .top_3_center form .fp a {
@@ -99,7 +140,20 @@ h1, h2, h3, h4, h5, h6 {
             border-right: 1px #ccc solid; }
   #top_3 .top_3_right {
     float: right;
-    padding-top: 33px; }
+    padding-top: 33px;
+    position: relative; }
+    #top_3 .top_3_right .gwc {
+      font-size: 12px;
+      width: 300px;
+      padding-left: 20px;
+      min-height: 48px;
+      border: 2px solid red;
+      display: none;
+      position: absolute;
+      left: -192px;
+      top: 68px;
+      line-height: 48px;
+      text-align: left; }
 
 .header {
   height: 33px;
@@ -281,10 +335,29 @@ h1, h2, h3, h4, h5, h6 {
     width: 750px;
     float: left; }
     #main .main_center .banner {
-      height: 400px; }
+      height: 400px;
+      position: relative; }
+      #main .main_center .banner ul li {
+        position: absolute; }
+      #main .main_center .banner .i1 {
+        z-index: 1; }
       #main .main_center .banner img {
         height: 400px;
         width: 750px; }
+      #main .main_center .banner .little {
+        height: 20px;
+        position: absolute;
+        bottom: 2%;
+        left: 43%;
+        overflow: hidden;
+        z-index: 9999; }
+        #main .main_center .banner .little div {
+          width: 20px;
+          height: 20px;
+          background: black;
+          border-radius: 10px;
+          float: left;
+          margin: 0 10px; }
   #main .main_right {
     float: left;
     width: 258px;

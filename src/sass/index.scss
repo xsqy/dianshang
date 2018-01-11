@@ -30,12 +30,34 @@
     .main_center{
         width:750px;
         float:left;
-        
         .banner{
             height:400px;
+            position:relative;
+            ul li{
+                position:absolute;
+            }
+            .i1{
+                z-index:1;
+            }
             img{
                 height:400px;
                 width:750px;
+            }
+            .little{
+                height:20px;
+                position:absolute;
+                bottom:2%;
+                left:43%;
+                overflow: hidden;
+                z-index:9999;
+                div{
+                    width:20px;
+                    height:20px;
+                    background:black;
+                    border-radius:10px;
+                    float:left;
+                    margin:0 10px;
+                }
             }
         }
     }

@@ -2,6 +2,26 @@
   margin: 0;
   padding: 0; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+a, u {
+  text-decoration: none; }
+
+ul, ol, li {
+  list-style: none; }
+
+i, em {
+  font-style: normal; }
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
 img {
   display: block; }
 
@@ -15,7 +35,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100; }
 
-.top_1_con, #top_2, #top_3, #main, #flashSale, #hotSale, #ad, #show, #brand, .nav_con, #bottom, .header, .enter_main_con {
+.top_1_con, #top_2, #top_3, #main, #flashSale, #hotSale, #ad, #show, #brand, .nav_con, #bottom, .header, .enter_main_con, #list_main, #detail_main {
   width: 1190px;
   margin: 0 auto; }
 
@@ -311,26 +331,31 @@ h1, h2, h3, h4, h5, h6 {
       height: 40px;
       line-height: 40px;
       padding-left: 46px; }
+    #main .main_left ul a:hover {
+      background-color: #fff;
+      color: #2a9af0;
+      position: relative;
+      left: 20px; }
     #main .main_left ul .a1 {
-      background: #2a9af0 url(../img/main/pop.gif) no-repeat 0 7px; }
+      background: #2a9af0 url(../img/main/pop1_01.png) no-repeat 5% 40%; }
     #main .main_left ul .a2 {
-      background: #2a9af0 url(../img/main/pop.gif) no-repeat 0 -33px; }
+      background: #2a9af0 url(../img/main/pop2_03.png) no-repeat 5% 40%; }
     #main .main_left ul .a3 {
-      background: #2a9af0 url(../img/main/pop.gif) no-repeat 0 -71px; }
+      background: #2a9af0 url(../img/main/pop3_05.png) no-repeat 5% 40%; }
     #main .main_left ul .a4 {
-      background: #2a9af0 url(../img/main/pop.gif) no-repeat 0 -114px; }
+      background: #2a9af0 url(../img/main/pop4_07.png) no-repeat 5% 40%; }
     #main .main_left ul .a5 {
-      background: #2a9af0 url(../img/main/pop.gif) no-repeat 0 -154px; }
+      background: #2a9af0 url(../img/main/pop5_09.png) no-repeat 5% 40%; }
     #main .main_left ul .a6 {
-      background: #2a9af0 url(../img/main/pop.gif) no-repeat 0 -193px; }
+      background: #2a9af0 url(../img/main/pop6_11.png) no-repeat 5% 40%; }
     #main .main_left ul .a7 {
-      background: #2a9af0 url(../img/main/pop.gif) no-repeat 0 -233px; }
+      background: #2a9af0 url(../img/main/pop7_13.png) no-repeat 5% 40%; }
     #main .main_left ul .a8 {
-      background: #2a9af0 url(../img/main/pop.gif) no-repeat 0 -273px; }
+      background: #2a9af0 url(../img/main/pop8_15.png) no-repeat 5% 40%; }
     #main .main_left ul .a9 {
-      background: #2a9af0 url(../img/main/pop.gif) no-repeat 0 -310px; }
+      background: #2a9af0 url(../img/main/pop9_17.png) no-repeat 5% 40%; }
     #main .main_left ul .a10 {
-      background: #2a9af0 url(../img/main/pop.gif) no-repeat 0 -352px; }
+      background: #2a9af0 url(../img/main/pop10_19.png) no-repeat 5% 40%; }
   #main .main_center {
     width: 750px;
     float: left; }

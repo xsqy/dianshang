@@ -4,6 +4,13 @@
     padding:0;
 }
 
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+a,u{text-decoration:none;}
+ul,ol,li{list-style:none;}
+i,em{font-style:normal;}
+
+.clearfix:after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+
 img{
     display:block;
 }
@@ -21,7 +28,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 100;
 }
 
-.top_1_con,#top_2,#top_3,#main,#flashSale,#hotSale,#ad,#show,#brand,.nav_con,#bottom,.header,.enter_main_con{
+.top_1_con,#top_2,#top_3,#main,#flashSale,#hotSale,#ad,#show,#brand,.nav_con,#bottom,.header,.enter_main_con,#list_main,#detail_main{
     width:1190px;
     margin:0 auto;
 }

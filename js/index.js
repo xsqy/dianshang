@@ -46,7 +46,7 @@ $(function(){
 //			    $littles.css({background:"black"});
 				$bigs.hide().eq(index).show();
 				$littles.css({background:"black"}).eq(index).css({"background":"#e22511"});
-				index++;
+				index++;	
 				if(index>2){
 					index = 0;
 				}
@@ -80,6 +80,8 @@ $(function(){
 				})
 	}
 	Sport();
+	
+	
 })
 
 

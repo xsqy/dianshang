@@ -1,0 +1,85 @@
+@charset "utf-8";
+@import "_common.scss";
+
+//main
+.zhuce_main{
+    width:625px;
+    height:833px;
+    border:2px solid #ccc;
+    margin: 10px 0 0 37px;
+    position:relative;
+    h2{
+        height:36px;
+        border-bottom:1px solid #ccc;
+        color:#1566c0;
+        font-size:21px;
+        padding:8px 0 0 28px;
+    }
+    form{
+        min-height:772px;
+        padding-top:17px;
+        padding-left:75px;
+        h3{
+            width:110px;
+            height:8px;
+            background:#ccc;
+        }
+        p{
+            margin-bottom:30px;
+        }
+        label{
+            display:block;
+            float:left;
+            width:72px;
+            height:25px;
+            margin-right:12px;
+            text-align:right;
+            padding-top:5px;
+            span{
+            color:red;
+        }
+        }
+        
+        input{
+            width:297px;
+            height:30px;
+        }
+        .last{
+            width:90px;
+        }
+        .bottom{
+            width:80px;
+            height:29px;
+            background:#fc570e;
+            font-size:14px;
+            line-height:29px;
+            text-align:center;
+            color:white;
+            border:0;
+        }
+        input[type = radio]{
+            width:14px;
+            height:14px;
+        }
+    }
+    .ahead{
+        position:absolute;
+        width:308px;
+        height:200px;
+        border-left:1px dashed #ccc;
+        right:-361px;
+        top:0;
+        padding: 52px 0 0 26px;
+        color:#5e5e5e;
+        font-size:14px;
+        input{
+            border:0;
+            width:140px;
+            height:42px;
+            color:white;
+            font-size:14px;
+            text-align: center;
+            background:#d41c27;
+        }
+    }
+}

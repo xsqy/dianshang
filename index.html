@@ -4,17 +4,13 @@
 		<meta charset="UTF-8">
 		<title>首页</title>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src = "js/require.js" defer async="true" data-main = "js/main"></script>
 	</head>
 	<body>
 		<!--top-->
 		<div id = "top_1">
 			<div class = "top_1_con">
-				<ul class = "myliang" style="display: none">
-					<li>我的优惠券</li>
-					<li>我的收藏夹</li>
-					<li>商品评价</li>
-					<li>我的私人订制</li>
-				</ul>
+				
 				<div class = "erwei" style="display: none">
 					<img src="img/top/2.jpg" alt="" />
 				</div>
@@ -25,7 +21,18 @@
 				</div>
 				<ul class = "top_1_right">
 					<li><a href="#">我的订单</a></li>
-					<li><a class = "a2" href="#">我的小量</a></li>
+					<li>
+						
+						<!--".top_1_con .a2",".myliang",{"color":"#3399ff","background":"#ffffff url(img/top/qian.png) 88% 6px no-repeat"},{"color":"#5e645a","background":"#f8f8f8 url(img/top/qian.png) 88% 33px no-repeat"-->
+					
+					<ul class = "myliang" style="display: none">
+						<li>我的优惠券</li>
+						<li>我的收藏夹</li>
+						<li>商品评价</li>
+						<li>我的私人订制</li>
+					</ul>
+					
+					<a class = "a2" href="#">我的小量</a></li>
 					<li><a href="#">帮助中心</a></li>
 					<li><a class = "a4" href="#">13157632491</a></li>
 					<li><a class = "a5" href="#">公众号</a></li>
@@ -74,7 +81,12 @@
 		<div id = "main">
 			<div class = "main_left">
 				<ul>
-					<li><a class = "a1" href="#">手机数码</a></li>
+					<li><a class = "a1" href="
+						javascript:;">手机数码
+						<div class = "con">
+							<span style="font-size:50px; font-weight:800;">手机</span>
+						</div>
+					</a></li>
 					<li><a class = "a2" href="#">服饰箱包</a></li>
 					<li><a class = "a3" href="#">电脑办公</a></li>
 					<li><a class = "a4" href="#">母婴玩具</a></li>
@@ -483,14 +495,16 @@
 		<!--fixed-->
 		<div id ="p_fixed">
 			<a href="#"><img src="img/position/mm_03.png" alt="" /></a>
-			<a href="#"><img src="img/position/gwche_03.png" alt="" /></a>
-			<a href="#"><img src= "img/position/type_06.png" alt ="" /></a>
-			<a href="#"><img src="img/position/backtop_08.png" alt ="" /></a>
+			<a href="#"><img src="img/position/gwche_03.png" alt="" />
+			<div>购物车</div></a>
+			<a href="#"><img src= "img/position/type_06.png" alt ="" />
+			<div>用户<br>反馈</div>
+			</a>
+			<a href="#top_1"><img src="img/position/backtop_08.png" alt ="" />
+			<div>返回<br>顶部</div>
+			</a>
 		</div>
 	</body>
 </html>
-<script type="text/javascript" src = "js/jquery-1.11.3.js"></script>
-<script src = "js/sport.js"></script>
-<script src = "js/index.js"></script>
 
 

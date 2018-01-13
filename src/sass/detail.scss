@@ -1,3 +1,128 @@
 @import "common.scss";
 @charset "utf-8";
 
+#detail_main{
+	h5{
+		height:33px;
+		line-height:33px;
+		span{
+			color:#ccc;
+		}
+		a{
+		font-size:12px;
+		color:#5e5e5e;
+		}	
+	}
+
+	.mainBox{
+		
+	.main_top{
+			min-height:5280px;
+			border:1px solid;
+			.top_left{
+				float:left;
+				width:349px;
+				height:498px;
+				border:1px solid #ccc;
+				.cont{
+				    border:1px solid;
+				}
+				.change img{
+				    width:60px;
+				    height:60px;
+				}			
+			}
+
+			.top_center{
+				width:629px;
+				height:498px;
+				float:left;
+				background:pink;
+			}
+
+			.top_right{
+				border:1px solid;
+		        width:177px;
+		        min-height:1397px;
+		        float:right;
+		        .top{
+		            height:110px;
+		            border:1px solid #ccc;
+		            margin-bottom:14px;
+		            .p1{
+		                height:25px;
+		                padding:11px 0 0 11px;
+		                font-size:14px;
+		                color:#5e5e5e;
+		                background:#dddddd;
+		                font-weight: 600;
+		            }
+		            .p2{
+		                border-top:1px solid #ccc;
+		                border-bottom:1px solid #ccc;
+		                height:36px;
+		                font-size:12px;
+		                color:#cc0000;
+		                background:#f5f5f5;
+		                line-height:36px;
+		            }
+		            .p3{
+		                height:36px;
+		                color:#5e5e5e;
+		                font-size:12px;
+		                background:#f5f5f5;
+		                line-height:36px;
+		            }
+		        }
+		        .center{
+		            min-height:1191px;
+		            border:1px solid #ccc;
+		            margin-bottom:15px;
+		           h3{
+		                padding:10px 0 0 12px;
+		                font-size:12px;
+		                color:#333333;
+		                font-weight:800;
+		                border-bottom:1px solid #ccc;
+		                height:23px;
+		            } 
+		            .dls{
+		                min-height:1142px;
+		                border-top:1px solid #ccc;
+		                padding-top:12px;
+		            }
+		            dl{
+		                margin-bottom:15px;
+		                img{
+		                    margin:0 auto;
+		                    width:117px;
+		                    height:148px;
+		                }
+		                text-align: center;
+		            }
+		            
+		        }
+		        .bottom{
+		            height:65px;
+		            border:1px solid #ccc;
+		            
+		            h5{
+		                height:23px;
+		                border-bottom:1px solid #ccc;
+		                font-size:14px;
+		                color:#333333;
+		                font-weight: 800;
+		                padding: 10px 0 0 12px; 
+		            }
+		            h6{
+		                height:27px;
+		                border-top:1px solid #ccc;
+		                font-size:12px;
+		                color:#5e5e5e;
+		                padding: 10px 0 0 12px;
+		            }
+		        }
+		    }
+		}
+	}
+}

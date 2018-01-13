@@ -309,7 +309,8 @@ h1, h2, h3, h4, h5, h6 {
   top: 65%;
   overflow: hidden;
   width: 50px;
-  height: 210px; }
+  height: 210px;
+  transition: 1s; }
   #p_fixed a {
     display: block;
     overflow: hidden;
@@ -317,6 +318,22 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1px;
     width: 50px;
     height: 50px; }
+    #p_fixed a img {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 0;
+      z-index: 100; }
+    #p_fixed a div {
+      position: absolute;
+      height: 50px;
+      background: #fa3330;
+      font-size: 16px;
+      color: white;
+      display: none;
+      top: 0;
+      width: 50px;
+      text-align: center; }
 
 #enter_main {
   background: url(../img/enter/ce336d5fbfa6868e0f2d5324ec77c3bd.jpg) no-repeat left center; }

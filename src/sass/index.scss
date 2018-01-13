@@ -14,6 +14,7 @@
                 height:40px;
                 line-height:40px;
                 padding-left:46px;
+                position:relative;
             }
             a:hover{
                 background-color:#fff;
@@ -21,7 +22,18 @@
                 position: relative;
                 left:20px;
             }
-            .a1{background:#2a9af0 url(../img/main/pop1_01.png) no-repeat 5% 40%}
+            .a1{background:#2a9af0 url(../img/main/pop1_01.png) no-repeat 5% 40%;
+                .con{
+                    display:none;
+                    width:1010px;
+                    height:400px;
+                    background:white ;
+                    position:absolute;
+                    right:-1010px; 
+                    top:0px;
+                    z-index: 99999;            
+                }
+            }
             .a2{background:#2a9af0 url(../img/main/pop2_03.png) no-repeat 5% 40%}
             .a3{background:#2a9af0 url(../img/main/pop3_05.png) no-repeat 5% 40%}
             .a4{background:#2a9af0 url(../img/main/pop4_07.png) no-repeat 5% 40%}

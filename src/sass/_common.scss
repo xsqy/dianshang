@@ -381,12 +381,31 @@ h1,h2,h3,h4,h5,h6{
     overflow: hidden;
     width:50px;
     height:210px;
+    transition:1s;
     a{
         display:block;
         overflow:hidden;
         position:relative;
         margin-bottom:1px;
         width:50px;
-        height:50px;       
+        height:50px;
+        img{
+            width:50px;
+            height:50px;
+            position:absolute;
+            top:0;
+            z-index:100;
+        }
+        div{
+            position:absolute;
+            height:50px;
+            background:#fa3330;
+            font-size:16px;
+            color:white;
+            display:none;
+            top:0;
+            width:50px;
+            text-align:center;
+        }       
     }
 }
